@@ -1,0 +1,20 @@
+[
+  {
+    "id": "kent-state-university",
+    "name": "Kent State University",
+    "country": "United States",
+    "lat": 41.1495,
+    "lng": -81.3467,
+    "status": "interested",
+    "website": "https://www.kent.edu",
+    "notes": "Sociology dept has active migration studies group.",
+    "professors": [
+      {
+        "name": "Dr. Jane Example",
+        "note": "Potential collaborator — works on refugee integration policy."
+      }
+    ],
+    "papers": [],
+    "conferences": []
+  }
+]
