@@ -16,5 +16,23 @@
     ],
     "papers": [],
     "conferences": []
+  },
+  {
+    "id": "iit-tirupati",
+    "name": "IIT tirupati",
+    "country": "India",
+    "lat": 13.712786,
+    "lng": 79.5899932,
+    "status": "accepted",
+    "website": "https://iittp.ac.in",
+    "notes": "PhD pursuing Guide: Arvind Kumar Pandey",
+    "professors": [
+      {
+        "name": "Arvind Kumar Pandey",
+        "note": "https://sites.google.com/view/arvindpandey/bio"
+      }
+    ],
+    "papers": [],
+    "conferences": []
   }
 ]
