@@ -61,6 +61,24 @@ def prompt_list(label):
     return items
 
 
+def prompt_scholarships():
+    """Prompt for scholarships with name, link, and note."""
+    print("\nAdd scholarship(s) — leave the name blank and press Enter when done.")
+    items = []
+    while True:
+        name = input("  scholarship name: ").strip()
+        if not name:
+            break
+        link = input(f"  Website/Link for {name} (optional): ").strip()
+        note = input(f"  Note about {name} (optional): ").strip()
+        items.append({
+            "name": name,
+            "link": link,
+            "note": note
+        })
+    return items
+
+
 def main():
     data = load_data()
     existing_ids = {u.get("id") for u in data}
@@ -103,6 +121,7 @@ def main():
     professors = prompt_list("professor/collaborator")
     papers = prompt_list("paper")
     conferences = prompt_list("conference")
+    scholarships = prompt_scholarships()
 
     entry = {
         "id": uni_id,
@@ -116,6 +135,7 @@ def main():
         "professors": professors,
         "papers": papers,
         "conferences": conferences,
+        "scholarships": scholarships,
     }
 
     data.append(entry)

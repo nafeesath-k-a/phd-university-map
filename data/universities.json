@@ -57,5 +57,30 @@
         "note": ""
       }
     ]
+  },
+  {
+    "id": "tokyo-univeristy",
+    "name": "Tokyo univeristy",
+    "country": "Japan",
+    "lat": 35.6917246,
+    "lng": 139.3214167,
+    "status": "interested",
+    "website": "https://ifi.u-tokyo.ac.jp/en/people/tanaka-tomoki/",
+    "notes": "",
+    "professors": [
+      {
+        "name": "Tomoki Tanaka",
+        "note": "He previously held positions as a JSPS Research Fellow (DC), Project Researcher, and Project Assistant Professor at the Institute of Gerontology, The University of Tokyo, and has been in his current role since 2025."
+      }
+    ],
+    "papers": [],
+    "conferences": [],
+    "scholarships": [
+      {
+        "name": "JSPS Postdoctoral Fellowships for Research in Japan (FY2027).",
+        "link": "https://www.jsps.go.jp/english/",
+        "note": "Look for Migration and Aging"
+      }
+    ]
   }
 ]
