@@ -14,14 +14,13 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-// --- Legend ---
+// --- Legend (HIDDEN) ---
 function buildLegend() {
   const legend = document.getElementById('legend');
-  legend.innerHTML = Object.entries(statusMeta).map(([key, meta]) => `
-    <span class="legend-item">
-      <span class="legend-dot" style="background:${meta.color}"></span>${meta.label}
-    </span>
-  `).join('');
+  // Hide the legend completely
+  legend.style.display = 'none';
+  // Or keep it hidden with no content
+  legend.innerHTML = '';
 }
 
 function makeIcon(status) {
@@ -70,6 +69,7 @@ document.getElementById('close-sidebar').addEventListener('click', () => {
   document.getElementById('sidebar').classList.add('hidden');
 });
 
+// Build legend (hidden)
 buildLegend();
 
 fetch('data/universities.json')
