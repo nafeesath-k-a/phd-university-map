@@ -35,7 +35,16 @@ function listSection(title, items) {
   if (!items || items.length === 0) {
     return `<h3>${title}</h3><p class="empty-note">Nothing added yet</p>`;
   }
-  const lis = items.map(i => `<li><strong>${escapeHtml(i.name)}</strong>${i.note ? ' — ' + escapeHtml(i.note) : ''}</li>`).join('');
+  const lis = items.map(i => {
+    let text = `<strong>${escapeHtml(i.name)}</strong>`;
+    if (i.link && i.link !== "") {
+      text += ` — <a href="${escapeHtml(i.link)}" target="_blank" rel="noopener">🔗 Link</a>`;
+    }
+    if (i.note && i.note !== "") {
+      text += ` (${escapeHtml(i.note)})`;
+    }
+    return `<li>${text}</li>`;
+  }).join('');
   return `<h3>${title}</h3><ul>${lis}</ul>`;
 }
 
