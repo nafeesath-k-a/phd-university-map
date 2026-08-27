@@ -17,9 +17,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // --- Legend (HIDDEN) ---
 function buildLegend() {
   const legend = document.getElementById('legend');
-  // Hide the legend completely
   legend.style.display = 'none';
-  // Or keep it hidden with no content
   legend.innerHTML = '';
 }
 
@@ -61,24 +59,6 @@ function showSidebar(uni) {
     ${listSection('Professors / Collaborators', uni.professors)}
     ${listSection('Papers', uni.papers)}
     ${listSection('Conferences', uni.conferences)}
-  `;
-  sidebar.classList.remove('hidden');
-}
-
-function showSidebar(uni) {
-  const sidebar = document.getElementById('sidebar');
-  const content = document.getElementById('sidebar-content');
-  const meta = statusMeta[uni.status] || statusMeta.interested;
-
-  content.innerHTML = `
-    <span class="badge status-${uni.status || 'interested'}">${meta.label}</span>
-    <h2>${escapeHtml(uni.name)}</h2>
-    <p class="country">${escapeHtml(uni.country || '')}</p>
-    ${uni.website ? `<p><a href="${uni.website}" target="_blank" rel="noopener">Visit website ↗</a></p>` : ''}
-    ${uni.notes ? `<div class="notes">${escapeHtml(uni.notes)}</div>` : ''}
-    ${listSection('Professors / Collaborators', uni.professors)}
-    ${listSection('Papers', uni.papers)}
-    ${listSection('Conferences', uni.conferences)}
     ${listSection('Scholarships', uni.scholarships)}
   `;
   sidebar.classList.remove('hidden');
@@ -88,7 +68,6 @@ document.getElementById('close-sidebar').addEventListener('click', () => {
   document.getElementById('sidebar').classList.add('hidden');
 });
 
-// Build legend (hidden)
 buildLegend();
 
 fetch('data/universities.json')
