@@ -1,11 +1,11 @@
 # My PhD University Atlas
 
-An interactive world map for tracking universities you're considering for
-your PhD. Click a pin to see the professors/collaborators, papers, and
-conferences you've linked to that university.
+An interactive world map for tracking universities. Click a pin to see the professors/collaborators, papers, and
+conferences.
 
 It's a static site (HTML/CSS/JS + a JSON data file), hosted for free on
-GitHub Pages. You add new universities with a small Python script.
+GitHub Pages. Add new universities with a small Python script.
+
 
 ---
 
