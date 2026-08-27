@@ -82,5 +82,19 @@
         "note": "Look for Migration and Aging"
       }
     ]
+  },
+  {
+    "id": "imiscoe",
+    "name": "IMISCOE",
+    "country": "Belgium",
+    "lat": 50.584997,
+    "lng": 5.571914,
+    "status": "interested",
+    "website": "https://www.imiscoe.org/",
+    "notes": "",
+    "professors": [],
+    "papers": [],
+    "conferences": [],
+    "scholarships": []
   }
 ]
