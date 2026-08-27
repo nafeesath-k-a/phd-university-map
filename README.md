@@ -156,9 +156,20 @@ phd-university-map/
 - A "distance from home" or "cost of living" note per pin
 - Export your list to a spreadsheet for application tracking
 
-Feel free to ask for help adding any of these once the basic map is
-working for you.
 
+# Add a university/opportunity
+python scripts/add_university.py
+
+# Update existing
+python scripts/update_university.py
+
+# Push changes to live site
+git add .
+git commit -m "add new opportunity"
+git push
+
+# View locally
+python -m http.server 8000
 
 
 https://nafeesath-k-a.github.io/phd-university-map/
