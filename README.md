@@ -11,7 +11,7 @@ GitHub Pages. Add new universities with a small Python script.
 
 ## Part 1 — One-time setup
 
-### 1. Create a GitHub account (skip if you already have one)
+### 1. Create a GitHub account 
 Go to https://github.com and sign up.
 
 ### 2. Install Git on your computer
@@ -31,7 +31,7 @@ latitude/longitude of a university from its name. In a terminal:
 ```
 pip install geopy
 ```
-(or `pip3 install geopy`, depending on your system)
+(or `pip3 install geopy`, depending on system)
 
 ### 4. Create the GitHub repository
 1. Go to https://github.com/new
