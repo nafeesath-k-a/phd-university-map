@@ -158,3 +158,6 @@ phd-university-map/
 
 Feel free to ask for help adding any of these once the basic map is
 working for you.
+
+
+https://github.com/nafeesath-k-a/phd-university-map
