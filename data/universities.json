@@ -10,8 +10,8 @@
     "notes": "Sociology dept has active migration studies group.",
     "professors": [
       {
-        "name": "Dr. Jane Example",
-        "note": "Potential collaborator — works on refugee integration policy."
+        "name": "Dr. Manacy Pai",
+        "note": "Aging."
       }
     ],
     "papers": [],
@@ -34,5 +34,28 @@
     ],
     "papers": [],
     "conferences": []
+  },
+  {
+    "id": "iit-indore",
+    "name": "IIT indore",
+    "country": "India",
+    "lat": 22.5269276,
+    "lng": 75.9262066,
+    "status": "accepted",
+    "website": "https://md2026.iiti.ac.in/",
+    "notes": "Conference - Poster selection",
+    "professors": [],
+    "papers": [
+      {
+        "name": "International Migration Disruptions and Domestic Labour Mobility in India: Implications for Inclusive Growth and Regional Resilience",
+        "note": ""
+      }
+    ],
+    "conferences": [
+      {
+        "name": "6th Annual Conference on Migration and Development",
+        "note": ""
+      }
+    ]
   }
 ]
