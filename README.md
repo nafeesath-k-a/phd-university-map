@@ -168,6 +168,10 @@ git add .
 git commit -m "add new opportunity"
 git push
 
+# If shows error
+git pull origin main --allow-unrelated-histories
+git push
+
 # View locally
 python -m http.server 8000
 
