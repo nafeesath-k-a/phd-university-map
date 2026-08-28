@@ -175,5 +175,12 @@ git push
 # View locally
 python -m http.server 8000
 
+# To force add the changes
+
+echo " " >> index.html
+git add index.html
+git commit -m "force rebuild"
+git push
+
 
 https://nafeesath-k-a.github.io/phd-university-map/
