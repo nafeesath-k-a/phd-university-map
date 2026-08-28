@@ -96,5 +96,24 @@
     "papers": [],
     "conferences": [],
     "scholarships": []
+  },
+  {
+    "id": "university-of-colombo",
+    "name": "University of Colombo",
+    "country": "Sri Lanka",
+    "lat": 6.9010965,
+    "lng": 79.8604345,
+    "status": "Interested",
+    "website": "https://arts.cmb.ac.lk/international-research-symposium-2026-demars-2026/",
+    "notes": "Sept 10",
+    "professors": [],
+    "papers": [],
+    "conferences": [
+      {
+        "name": "International Research Symposium 2026 (DemARS 2026)",
+        "note": ""
+      }
+    ],
+    "scholarships": []
   }
 ]
