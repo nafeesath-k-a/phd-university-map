@@ -115,5 +115,19 @@
       }
     ],
     "scholarships": []
+  },
+  {
+    "id": "max-planck-institute-for-demographic-research",
+    "name": "max planck institute for demographic research",
+    "country": "Germany",
+    "lat": 54.0940121,
+    "lng": 12.1111115,
+    "status": "interested",
+    "website": "",
+    "notes": "",
+    "professors": [],
+    "papers": [],
+    "conferences": [],
+    "scholarships": []
   }
 ]
