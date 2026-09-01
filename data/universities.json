@@ -129,5 +129,29 @@
     "papers": [],
     "conferences": [],
     "scholarships": []
+  },
+  {
+    "id": "national-university-of-singapore",
+    "name": "National university of singapore",
+    "country": "Singapore",
+    "lat": 1.2959845,
+    "lng": 103.7766186,
+    "status": "interested",
+    "website": "https://fass.nus.edu.sg/cfpr/",
+    "notes": "",
+    "professors": [
+      {
+        "name": "Kriti Vikram",
+        "note": "Associate Professor of Sociology, and Co-Director, Centre for Family and Population Research (CFPR), National University of Singapore."
+      }
+    ],
+    "papers": [
+      {
+        "name": "Childless and sonless in India: Implications for subjective well-being in mid- and older adulthood",
+        "note": ""
+      }
+    ],
+    "conferences": [],
+    "scholarships": []
   }
 ]
